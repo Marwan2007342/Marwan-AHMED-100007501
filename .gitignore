@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker volumes (never commit data)
+influxdb_data/
+grafana_data/
+
+# Secrets / env overrides
+.env.local
+secrets.yml
+
+# Byte-compiled
+*.pyc
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+desktop.ini
